@@ -1,16 +1,15 @@
 /**
  * Created by enea on 19.03.17.
  */
-
 import React from 'react';
-import {Nav,NavItem,NavDropdown, MenuItem, Navbar} from 'react-bootstrap'
+import {Nav, NavItem, Navbar} from 'react-bootstrap'
 
 
 class Navbar2 extends React.Component {
 
 render() {
     return (
-        <div class="navbar ">
+        <div className="navbar ">
             <Navbar inverse collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
@@ -20,11 +19,12 @@ render() {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
-                        <NavItem eventKey={1} href="#">Link Right 1</NavItem>
-                        <NavItem eventKey={2} href="#">Link Right 2</NavItem>
-                        <NavItem eventKey={3} href="#">Link Right 3</NavItem>
-                        <NavItem eventKey={4} href="#">Link Right 4</NavItem>
-                        <NavItem eventKey={5} href="#">Link Right 5</NavItem>
+                        <NavItem eventKey={1} href="#">Jak to działa</NavItem>
+                        <NavItem eventKey={2} href="#">Wypróbuj</NavItem>
+                        <NavItem eventKey={3} href="#">Sprawdż Wydarzenia</NavItem>
+                        <NavItem eventKey={4} href="#">Opinie</NavItem>
+                        <NavItem eventKey={5} href="#">Nasz Zespół</NavItem>
+                        <NavItem eventKey={5} href="#">Kontakt</NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
