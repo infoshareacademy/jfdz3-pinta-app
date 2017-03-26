@@ -15,7 +15,7 @@ class Main extends React.Component {
 
             <main>
                 <img src={mainbg} alt="background-party" className="main-bg"/>
-                <p>Najlepsza aplikacja!</p>
+                {/*<h1>Najlepsza aplikacja!</h1>*/}
             </main>
 
         )

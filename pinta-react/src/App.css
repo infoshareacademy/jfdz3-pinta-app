@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+/* Global */
+body {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  margin-top: 45px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+/* Global end */
+
 /*.App-logo {*/
   /*animation: App-logo-spin infinite 20s linear;*/
   /*height: 80px;*/
@@ -24,6 +39,39 @@
   /*to { transform: rotate(360deg); }*/
 /*}*/
 
+/**** Navbar ****/
 .navbar {
   border-radius: 0;
+  margin-bottom: 0;
+  border: 0;
+  z-index: 999;
+}
+
+/* Main */
+
+main {
+  width: 100%;
+  max-height: 694px;
+}
+
+.main-bg {
+  width: 100%;
+  max-height: 694px;
+  z-index: 300;
+}
+
+main h1 {
+  position: relative;
+  color: white;
+  font-size: 3em;
+  /*bottom: 12em;*/
+  vertical-align: middle;
+  text-align: center;
+  z-index: 10;
+}
+
+/* Jak To Działa - Thumbnails */
+
+.thumbnail {
+  border:0;
 }
