@@ -15,6 +15,26 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
+
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+
+h1:after {
+  display: block;
+  height: 2px;
+  background-color: #2962FF;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
 /* Global end */
 
 /*.App-logo {*/
@@ -47,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 999;
 }
 
+
 /* Main */
 
 main {
@@ -75,3 +96,5 @@ main h1 {
 .thumbnail {
   border:0;
 }
+
+/* Search events */

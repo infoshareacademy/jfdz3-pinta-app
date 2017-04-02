@@ -4,22 +4,27 @@ import './App.css';
 import Navbar from './pages_layouts/navbar/navbar';
 import Main from './pages_layouts/main/main';
 import Thumbnails from './pages_layouts/jak-to-dziala/jak-to-dziala'
+import Searchevents from './pages_layouts/search_events/searchevents'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-            <div className="Navbar">
+      <div className='App'>
+        <div className='App-header'>
+            <div className='Navbar'>
                 <Navbar/>
 
             </div>
-            <div className="Main">
+            <div className='Main'>
                 <Main/>
             </div>
-            <div className="Thumbnails">
+            <div className='Thumbnails'>
                 <Thumbnails/>
             </div>
+            <div className="Searchevents">
+                <Searchevents/>
+            </div>
+
           {/*<img src={logo} className="App-logo" alt="logo" />*/}
           {/*<h2>Welcome to React</h2>*/}
         </div>
