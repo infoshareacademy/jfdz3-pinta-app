@@ -1,3 +1,9 @@
+/*
+color
+
+700                 #C2185B
+ */
+
 .App {
   text-align: center;
 }
@@ -29,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 h1:after {
   display: block;
   height: 2px;
-  background-color: #2962FF;
+  background-color: #C2185B;
   content: " ";
   width: 100px;
   margin: 0 auto;
@@ -67,7 +73,6 @@ h1:after {
   z-index: 999;
 }
 
-
 /* Main */
 
 main {
@@ -98,20 +103,18 @@ main h1 {
   border:0;
   display: block;
   float: left;
+  box-shadow: 0;
 }
 
 .feature-item {
   text-align: center;
   font-size: 5em;
-  /*font-size: 2.2em;*/
-  /*text-align: center;*/
-  /*height: 9em;*/
-  /*width: 8em;*/
-  /*margin: 1em 1em;*/
-  /*display: inline-block;*/
-  /*background-color: #2bd1c9;*/
-  /*opacity: 0.9;*/
-
+  color: #C2185B;
 }
 
 /* Search events */
+
+.searchevents {
+  background-color: #f4f4f4;
+  height: 500px;
+}

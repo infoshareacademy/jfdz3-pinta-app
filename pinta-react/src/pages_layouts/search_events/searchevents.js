@@ -3,6 +3,8 @@
  */
 
 import React from 'react';
+import {Row} from 'react-bootstrap';
+
 
 
 class Searchevents extends React.Component {
@@ -13,9 +15,9 @@ class Searchevents extends React.Component {
 
         return (
 
-            <row>
-                <h1>Sprawdź Wydarzenia</h1>
-            </row>
+            <Row className="searchevents">
+                    <h1>Sprawdź Wydarzenia</h1>
+            </Row>
 
         )
     }
