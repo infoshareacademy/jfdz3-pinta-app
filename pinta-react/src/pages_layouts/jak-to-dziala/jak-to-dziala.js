@@ -4,6 +4,9 @@
 
 import React from 'react';
 import {Col, Thumbnail,Grid, Row} from 'react-bootstrap';
+import FaCalendarCheckO from 'react-icons/lib/fa/calendar-check-o';
+import FaShareSquareO from 'react-icons/lib/fa/share-square-o';
+import FaMobile from 'react-icons/lib/fa/mobile';
 
 class Thumbnails extends React.Component {
     render() {
@@ -12,21 +15,24 @@ class Thumbnails extends React.Component {
                 <Row>
                     <h1>Jak to działą?</h1>
                     <Col xs={6} md={4}>
-                        <Thumbnail src="/pages_layouts/jak-to-dziala/calendar.png" alt="Calendar">
-                            <h3>Calendar</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <Thumbnail>
+                            <div className="feature-item"><FaCalendarCheckO/></div>
+                            <h3>Kalendarz</h3>
+                            <p>Nasza aplikacja oferuje korzystanie z osobistego kalendarza eventów, który pozwala na kategoryzowanie wydarzeń i ustawianie przypomnień. Dzięki temu łatwiej jest zaplanować swój czas, czy z odpowiednim wyprzedzeniem kupić bilety.</p>
                         </Thumbnail>
                     </Col>
                     <Col xs={6} md={4}>
-                        <Thumbnail src="/assets/thumbnaildiv.png" alt="criteria">
-                            <h3>Criteria</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <Thumbnail>
+                            <div className="feature-item"><FaShareSquareO/></div>
+                        <h3>Kryteria</h3>
+                            <p>Wyszukiwanie wydarzeń odbywa się dzięki zastosowaniu odpowiednich kryteriów, opisujących rodzaj i charakter imprezy (np. impreza biznesowa, koncert, festiwal na otwartym powietrzu itd.).</p>
                         </Thumbnail>
                     </Col>
                     <Col xs={6} md={4}>
-                        <Thumbnail src="/assets/thumbnaildiv.png" alt="loigin">
+                        <Thumbnail>
+                            <div className="feature-item"><FaMobile/></div>
                             <h3>Login</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Wszystkie informacje przechowywane są w profilu użytkownika, do którego zastosowano łatwy i bezpieczny system logowania przez portale społecznościowe, takie jak Facebook, czy Google. Nie wymaga on tworzenia i zapamiętywania dodatkowych haseł.</p>
                         </Thumbnail>
                     </Col>
                 </Row>

@@ -4,17 +4,18 @@
 
 import React from 'react';
 import {Nav, NavItem, Navbar} from 'react-bootstrap'
+import pintalogo from 'pinta.png'
 
 
 class Navbar2 extends React.Component {
 
-render() {
+    render() {
     return (
         <div className="navbar ">
             <Navbar inverse collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#">Pinta</a>
+                        <a href="#"><img src={pintalogo} alt="logo" className="pinta-logo"/></a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
