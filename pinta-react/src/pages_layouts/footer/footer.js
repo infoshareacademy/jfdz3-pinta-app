@@ -17,7 +17,7 @@ class Footer extends React.Component {
         return (
             <Grid>
                 <Row className="show-grid">
-                    <Col md={6} mdPush={6}>
+                    <Col xs={12} md={8}>
                         <ul className="footer-nav">
                             <li><a href="#">Jak to działa</a></li>
                             <li><a href="#">Sprawdź Wydarzenia</a></li>
@@ -26,7 +26,7 @@ class Footer extends React.Component {
                             <li><a href="#">Kontakt</a></li>
                         </ul>
                     </Col>
-                    <Col md={6} mdPull={6}>
+                    <Col xs={6} md={4}>
                         <ul className="social-links">
                             <li className="facebook"><a href="#"><FaFacebookSquare/></a></li>
                             <li className="googleplus"><a href="#"><FaGooglePlusSquare/></a></li>

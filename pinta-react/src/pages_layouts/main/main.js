@@ -4,7 +4,7 @@
 
     import React from 'react';
     import {Row} from 'react-bootstrap';
-    import mainbg from './bg.jpg';
+    import mainbg from './bg.gif';
 
     class Main extends React.Component {
 

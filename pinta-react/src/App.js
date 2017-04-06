@@ -9,7 +9,13 @@ import Searchevents from './pages_layouts/search_events/searchevents'
 import Login from "./pages_layouts/login/login";
 import Team from "./pages_layouts/team/team";
 import Footer from "./pages_layouts/footer/footer";
+// BigCagelendar
+import moment from 'moment'
+import BigCalendar from 'react-big-calendar'
+BigCalendar.momentLocalizer(moment)
 
+// require('style!css!react-big-calendar/lib/css/react-big-calendar.css')
+// /
 
 
 
@@ -34,6 +40,12 @@ class App extends Component {
           </div>
           <div className="Searchevents">
               <Searchevents/>
+
+              <BigCalendar
+                  style={{height: '420px'}}
+                  events={[]}
+              />
+
           </div>
           <div className="Login">
               <Login/>
