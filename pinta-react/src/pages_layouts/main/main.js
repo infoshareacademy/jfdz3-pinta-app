@@ -3,6 +3,7 @@
  */
 
     import React from 'react';
+    import {Row} from 'react-bootstrap';
     import mainbg from './bg.jpg';
 
     class Main extends React.Component {
@@ -13,12 +14,12 @@
 
             return (
 
-
-                <main>
-                    <img src={mainbg} alt="background-party" className="main-bg"/>
-                    {/*<h1>Najlepsza aplikacja!</h1>*/}
-                </main>
-
+                <Row>
+                    <main>
+                        <img src={mainbg} alt="background-party" className="main-bg"/>
+                        {/*<h1>Najlepsza aplikacja!</h1>*/}
+                    </main>
+                </Row>
             )
         }
 

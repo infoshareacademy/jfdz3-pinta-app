@@ -45,21 +45,21 @@ h1:after {
 
 /* links */
 
-a:link,
-a:visited {
-  color: #BBDEFB;
-  text-decoration: none;
-  padding-bottom: 1px;
-  border-bottom: 1px solid #BBDEFB;
-  -webkit-transition: border-bottom 0.2s, color 0.2s;
-  transition: border-bottom 0.2s, color 0.2s;
-}
+/*a:link,*/
+/*a:visited {*/
+  /*color: #BBDEFB;*/
+  /*text-decoration: none;*/
+  /*padding-bottom: 1px;*/
+  /*border-bottom: 1px solid #BBDEFB;*/
+  /*-webkit-transition: border-bottom 0.2s, color 0.2s;*/
+  /*transition: border-bottom 0.2s, color 0.2s;*/
+/*}*/
 
-a:hover,
-a:active {
-  color: #555;
-  border-bottom: 1px solid transparent;
-}
+/*a:hover,*/
+/*a:active {*/
+  /*color: #555;*/
+  /*border-bottom: 1px solid transparent;*/
+/*}*/
 
 /*.App-logo {*/
   /*animation: App-logo-spin infinite 20s linear;*/
