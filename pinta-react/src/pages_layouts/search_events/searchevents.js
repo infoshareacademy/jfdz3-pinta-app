@@ -6,7 +6,7 @@ import React from 'react';
 import {Row, Grid, Col} from 'react-bootstrap';
 import Bigcalendar from 'react-big-calendar';
 
-require('style!css!react-big-calendar/lib/css/react-big-calendar.css')
+
 
 
 class Searchevents extends React.Component {
