@@ -17,24 +17,22 @@ class Footer extends React.Component {
         return (
             <Grid>
                 <Row className="show-grid">
-                    <div className="footer">
-                        <Col md={6} mdPush={6}>
-                            <ul className="footer-nav">
-                                <li><a href="#">Jak to działa</a></li>
-                                <li><a href="#">Sprawdź Wydarzenia</a></li>
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Nasz Zespół</a></li>
-                                <li><a href="#">Kontakt</a></li>
-                            </ul>
-                        </Col>
-                        <Col md={6} mdPull={6}>
-                            <ul className="social-links">
-                                <li className="facebook"><a href="#"><FaFacebookSquare/></a></li>
-                                <li className="googleplus"><a href="#"><FaGooglePlusSquare/></a></li>
-                                <li className="instagram"><a href="#"><FaInstagram/></a></li>
-                            </ul>
-                        </Col>
-                    </div>
+                    <Col md={6} mdPush={6}>
+                        <ul className="footer-nav">
+                            <li><a href="#">Jak to działa</a></li>
+                            <li><a href="#">Sprawdź Wydarzenia</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Nasz Zespół</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </Col>
+                    <Col md={6} mdPull={6}>
+                        <ul className="social-links">
+                            <li className="facebook"><a href="#"><FaFacebookSquare/></a></li>
+                            <li className="googleplus"><a href="#"><FaGooglePlusSquare/></a></li>
+                            <li className="instagram"><a href="#"><FaInstagram/></a></li>
+                        </ul>
+                    </Col>
                 </Row>
             </Grid>
         )

@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import {Row} from 'react-bootstrap';
+import {Row, Grid, Col} from 'react-bootstrap';
 
 
 
@@ -14,11 +14,17 @@ class Searchevents extends React.Component {
 
 
         return (
-
-            <Row className="searchevents">
-                    <h1>Sprawdź Wydarzenia</h1>
-            </Row>
-
+            <div className="searchevents">
+                <Grid>
+                    <Row>
+                            <h1>Sprawdź Wydarzenia</h1>
+                    </Row>
+                    <Row className="show-grid">
+                        <Col xs={6} md={4}><code>&lt;{'Col xs={6} md={4}'} /&gt;</code></Col>
+                        <Col xs={12} md={8}><code>&lt;{'Col xs={12} md={8}'} /&gt;</code></Col>
+                    </Row>
+                </Grid>
+            </div>
         )
     }
 

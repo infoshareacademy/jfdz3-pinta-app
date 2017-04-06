@@ -148,15 +148,10 @@ main h1 {
 }
 
 /* Footer */
-.show-grid {
-  text-align: center;
-}
-
-footer {
-  background-color: #FF4081;
+.footer {
+  background-color: #BBDEFB;
   padding: 50px;
-  font-size: 80%;
-  height: 200px;
+  /*height: 200px;*/
 }
 
 .footer-nav {
@@ -219,8 +214,8 @@ footer {
   color: #517fa4;
 }
 
-/*footer p {*/
-  /*color: #888;*/
-  /*text-align: center;*/
-  /*margin-top: 20px;*/
-/*}*/
+footer p {
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}
