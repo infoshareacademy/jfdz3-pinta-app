@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './pages_layouts/navbar/navbar';
 import Main from './pages_layouts/main/main';
@@ -8,6 +9,13 @@ import Searchevents from './pages_layouts/search_events/searchevents'
 import Login from "./pages_layouts/login/login";
 import Team from "./pages_layouts/team/team";
 import Footer from "./pages_layouts/footer/footer";
+
+import moment from 'moment'
+import BigCalendar from 'react-big-calendar'
+// a localizer for BigCalendar
+BigCalendar.momentLocalizer(moment)
+
+
 
 class App extends Component {
   render() {
@@ -30,6 +38,12 @@ class App extends Component {
           </div>
           <div className="Searchevents">
               <Searchevents/>
+
+              <BigCalendar
+                  style={{height: '420px'}}
+                  events={[]}
+              />
+
           </div>
           <div className="Login">
               <Login/>
