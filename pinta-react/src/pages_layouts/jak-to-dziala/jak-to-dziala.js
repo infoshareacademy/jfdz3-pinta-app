@@ -12,7 +12,7 @@ class Thumbnails extends React.Component {
     render() {
         return (
             <Grid>
-                <Row>
+                <Row className="how_works">
                     <h1>Jak to działą?</h1>
                     <Col xs={6} md={4}>
                         <Thumbnail>

@@ -3,6 +3,7 @@
  */
 
 import React from 'react';
+import {Row} from 'react-bootstrap';
 
 
 class Login extends React.Component {
@@ -13,11 +14,11 @@ class Login extends React.Component {
 
         return (
 
-            <row>
+            <Row>
                 <div className="login">
                     <h1>Loguj się i sprawdź wydarzenia!</h1>
                 </div>
-            </row>
+            </Row>
 
         )
     }
@@ -25,4 +26,4 @@ class Login extends React.Component {
 }
 
 
-export default Searchevents;
+export default Login;
