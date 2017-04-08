@@ -22,9 +22,9 @@ render() {
                     <Navbar.Collapse>
                         <Nav pullRight>
                             <NavItem eventKey={1} href="#">Jak to działa</NavItem>
-                            <NavItem eventKey={3} href="#">Sprawdź Wydarzenia</NavItem>
-                            <NavItem eventKey={4} href="#">Login</NavItem>
-                            <NavItem eventKey={5} href="#">Nasz Zespół</NavItem>
+                            <NavItem eventKey={2} href="#">Sprawdź Wydarzenia</NavItem>
+                            <NavItem eventKey={3} href="#">Login</NavItem>
+                            <NavItem eventKey={4} href="#">Nasz Zespół</NavItem>
                             <NavItem eventKey={5} href="#">Kontakt</NavItem>
                         </Nav>
                     </Navbar.Collapse>
@@ -36,3 +36,4 @@ render() {
 }
 
 export default Navbar2;
+

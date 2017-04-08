@@ -90,6 +90,9 @@ h1:after {
   border: 0;
   z-index: 999;
 }
+.navbar-inverse {
+  background-color: #3b5998;
+}
 
 /* Main */
 
@@ -143,9 +146,21 @@ main h1 {
 }
 /* Team */
 .team {
-  height: 300px;
+  height: 350px;
   background-color: #f4f4f4;
 }
+
+.eneaprofile {
+  max-height: 150px;
+  height: 100%;
+}
+
+.krzysztofprofile {
+  max-height: 150px;
+  height: 100%;
+}
+
+
 
 /* Footer */
 .footer {

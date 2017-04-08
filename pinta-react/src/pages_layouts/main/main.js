@@ -7,13 +7,8 @@
     import mainbg from './bg.gif';
 
     class Main extends React.Component {
-
-
         render() {
-
-
             return (
-
                 <Row>
                     <main>
                         <img src={mainbg} alt="background-party" className="main-bg"/>
@@ -22,8 +17,6 @@
                 </Row>
             )
         }
-
     }
-
 
     export default Main;
