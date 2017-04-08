@@ -3,8 +3,8 @@
  */
 
 import React from 'react';
-import {Row, Image, Nav, NavItem, Navbar} from 'react-bootstrap'
-
+import {Row, Nav, NavItem, Navbar} from 'react-bootstrap';
+import pinta from './pinta.png';
 
 class Navbar2 extends React.Component {
 
@@ -15,7 +15,7 @@ render() {
                 <Navbar inverse collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href="#"><Image src='./pages_layouts/navbar/pinta.png' className="pintalogo" alt="logo" responsive /></a>
+                            <a href="#"><img src={pinta} alt="pintalogo" className="pintalogo"/></a>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
