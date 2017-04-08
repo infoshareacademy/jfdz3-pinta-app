@@ -14,12 +14,27 @@ import moment from 'moment'
 import BigCalendar from 'react-big-calendar'
 BigCalendar.momentLocalizer(moment)
 
+import { getEvents } from './gcal'
+
 // require('style!css!react-big-calendar/lib/css/react-big-calendar.css')
-// /
 
 
 
 class App extends Component {
+    constructor() {
+        super()
+        this.state = {
+            events: []
+        }
+    }
+    componentDidMount() {
+        getEvents((events) => {
+            this.setState({events})
+        })
+
+    }
+
+
   render() {
     return (
       <div className='App'>
@@ -43,9 +58,8 @@ class App extends Component {
 
               <BigCalendar
                   style={{height: '420px'}}
-                  events={[]}
+                  events={this.state.events}
               />
-
           </div>
           <div className="Login">
               <Login/>
