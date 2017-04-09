@@ -57,7 +57,7 @@ class App extends Component {
                                 <Nav pullRight>
                                    <Link to="/">Main</Link>
                                     <Link to="/how-works">Jak to działa</Link>
-                                    <Link to="/seachevents">Sprawdź Wydarzenia                                    </Link>
+                                    <Link to="/searchevents">Sprawdź Wydarzenia                                    </Link>
                                     <Link to="/login">Login</Link>
                                     <Link to="/team">Nasz Zespół</Link>
                                 </Nav>

@@ -13,7 +13,7 @@ class Searchevents extends React.Component {
 
     render() {
         return (
-            <div className="searchevents">
+            <div className="searchevents" style={{height:'650px'}}>
                 <Grid>
                     <Row>
                             <h1>Sprawdź Wydarzenia</h1>
@@ -23,12 +23,12 @@ class Searchevents extends React.Component {
                             <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
                         </Col>
                         <Col xs={12} md={8}>
-                            <code> {BigCalendar} </code>
+                            <code><BigCalendar
+                                style={{height: '420px'}}
+                                events={[]}
+                            /> </code>
                         </Col>
-                        {/*<BigCalendar*/}
-                            {/*style={{height: '420px'}}*/}
-                            {/*events={this.state.events}*/}
-                        {/*/>*/}
+
                     </Row>
                 </Grid>
             </div>
