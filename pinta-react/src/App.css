@@ -131,8 +131,9 @@ main h1 {
 
 /* Jak To Działa - Thumbnails */
 .thumbnail {
+
   border:0;
-  display: block;
+  display: inline-block;
   float: left;
   box-shadow: 0;
 }
