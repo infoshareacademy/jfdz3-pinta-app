@@ -25,6 +25,10 @@ class Searchevents extends React.Component {
                         <Col xs={12} md={8}>
                             <code> {BigCalendar} </code>
                         </Col>
+                        {/*<BigCalendar*/}
+                            {/*style={{height: '420px'}}*/}
+                            {/*events={this.state.events}*/}
+                        {/*/>*/}
                     </Row>
                 </Grid>
             </div>

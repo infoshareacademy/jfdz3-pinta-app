@@ -12,7 +12,7 @@
                 <Row>
                     <main>
                         <img src={mainbg} alt="background-party" className="main-bg"/>
-                        {/*<h1>Najlepsza aplikacja!</h1>*/}
+                        {/*<h1 className="text-invitation">Najlepsza aplikacja!</h1>*/}
                     </main>
                 </Row>
             )

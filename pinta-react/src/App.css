@@ -153,7 +153,7 @@ main h1 {
 
 /* Login */
 .login {
-  height: 300px;
+  height: 500px;
 }
 .googlelogin {
   margin: 80px 80px;
@@ -161,7 +161,7 @@ main h1 {
 
 /* Team */
 .team {
-  height: 350px;
+  height: 500px;
   background-color: #f4f4f4;
 }
 
@@ -179,7 +179,7 @@ main h1 {
 
 /* Footer */
 .footer {
-  background-color: #BBDEFB;
+  background-color: #F8BBD0;
   padding: 50px;
   /*height: 200px;*/
 }

@@ -7,6 +7,7 @@ import {Col,Grid, Row} from 'react-bootstrap';
 import FaCalendarCheckO from 'react-icons/lib/fa/calendar-check-o';
 import FaShareSquareO from 'react-icons/lib/fa/share-square-o';
 import FaMobile from 'react-icons/lib/fa/mobile';
+// import BigCalendar from 'react-big-calendar'
 
 class Thumbnails extends React.Component {
     render() {
