@@ -84,18 +84,84 @@ h1:after {
 /*}*/
 
 /**** Navbar ****/
-.navbar {
-  border-radius: 0;
-  margin-bottom: 0;
-  border: 0;
-  z-index: 999;
-}
-.navbar-inverse {
-  background-color: #3b5998;
+
+.row {
+   margin-right: -15px;
+   margin-left: -15px;
 }
 
+nav {
+  background-color: #F48FB1 !important;
+  text-transform: uppercase !important;
+}
+
+.navbar-inverse {
+
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-image: none !important;
+}
+
+.nav .navbar-nav{
+  margin: 0 auto !important;
+}
+
+.nav a {
+  color: white !important;
+  font-size: 1.2em;
+  text-shadow: none !important;
+  font-weight: bold !important;
+  padding: 1.5em 1.5em !important;
+}
+
+nav a:hover {
+  color: white !important;
+  background-color: #F8BBD0 !important;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center !important;
+  margin: 0  auto !important;
+}
+
+.navbar-nav > li {
+  float: none !important;
+  display: inline-block !important;
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar-nav > li {
+    float: none !important;
+    display: block !important;
+  }
+
+  .navbar-nav > li > a {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .navbar-collapse {
+    padding: 0 !important;
+  }
+}
+
+
+
+/*.navbar {*/
+  /*border-radius: 0;*/
+  /*margin-bottom: 0;*/
+  /*border: 0;*/
+  /*z-index: 999;*/
+/*}*/
+/*.navbar-inverse {*/
+  /*background-color: #3b5998;*/
+/*}*/
+
 .pintalogo {
-  height: 30px;
+  height: 80px;
   margin-top: 0px;
 }
 
