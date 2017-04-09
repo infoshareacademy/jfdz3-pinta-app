@@ -1,12 +1,7 @@
-/**
- * Created by enea on 02.04.17.
- */
 
 import React from 'react';
 import {Row, Grid, Col} from 'react-bootstrap';
 import BigCalendar from 'react-big-calendar';
-
-
 
 
 class Searchevents extends React.Component {
@@ -20,10 +15,11 @@ class Searchevents extends React.Component {
                     </Row>
                     <Row className="show-grid">
                         <Col xs={6} md={4}>
-                            <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
+                            <code>&lt;{'Szukasz eventy'} &gt;</code>
                         </Col>
                         <Col xs={12} md={8}>
-                            <code><BigCalendar
+                            <code>
+                                <BigCalendar
                                 style={{height: '420px'}}
                                 events={[]}
                             /> </code>
