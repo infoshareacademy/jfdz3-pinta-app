@@ -152,8 +152,12 @@ main h1 {
 
 /* Login */
 .login {
-  height: 100vh;
+  height: 300px;
 }
+.googlelogin {
+  margin: 80px 80px;
+}
+
 /* Team */
 .team {
   height: 350px;
