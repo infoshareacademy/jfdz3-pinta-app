@@ -130,6 +130,10 @@ main h1 {
 }
 
 /* Jak To Działa - Thumbnails */
+.how_works {
+  height:100%;
+  max-height: 700px;
+}
 
 .thumbnail {
   border:0;
