@@ -1,6 +1,3 @@
-/**
- * Created by enea on 19.03.17.
- */
 
 import React from 'react';
 import {Row, Nav, NavItem, Navbar} from 'react-bootstrap';
